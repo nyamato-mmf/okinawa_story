@@ -10,7 +10,7 @@ var config = {
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'The Title Text of this Story',
+    title: 'Okinawa Vision - Interactive Storytelling',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
     byline: 'By a Digital Storyteller',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
