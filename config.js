@@ -20,13 +20,13 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Display Title',
-            image: './path/to/image/source.png',
+            image: './images/test/hibiscus.jpeg',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
-                center: [-122.418398, 37.759483],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: 0
+                center: [127.62592, 26.36929],
+                zoom: 9.68,
+                pitch: 45.00,
+                bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -47,25 +47,25 @@ var config = {
         },
         {
             id: 'second-identifier',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'Second Title',
-            image: './path/to/image/source.png',
+            image: './images/test/kokusai_dori.jpeg',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-77.020636, 38.886900],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: -43.2,
+                center: [127.76376, 26.71117],
+                zoom: 12.85,
+                pitch: 45.00,
+                bearing: 0.00,
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
                 // to pan.
-                //speed: 2, // make the flying slow
+                speed: 1, // make the flying slow
                 //curve: 1, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
@@ -75,12 +75,12 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Third Title',
-            image: './path/to/image/source.png',
+            image: './images/test/turtle.jpeg',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [6.15116, 46.20595],
-                zoom: 12.52,
-                pitch: 8.01,
+                center: [127.66113, 26.20326],
+                zoom: 12.28,
+                pitch: 45.00,
                 bearing: 0.00
             },
             mapAnimation: 'flyTo',
@@ -91,16 +91,16 @@ var config = {
         },
         {
             id: 'fourth-chapter',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'Third Title',
-            image: './path/to/image/source.png',
+            image: './images/test/yanbaru.jpeg',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-58.54195, -34.71600],
-                zoom: 4,
-                pitch: 0,
-                bearing: 0
+                center: [128.16697, 26.68819],
+                zoom: 12.07,
+                pitch: 45.00,
+                bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
